@@ -2,6 +2,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  color: #ffab00;
+}
+
 /*.parallax-container {
   height: 500px;
 }*/
