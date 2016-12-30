@@ -55,7 +55,7 @@
 
     <div class="container">
       <div class="section">
-
+        <br>
         <div class="row">
 
           <div class="col s8 center">
@@ -72,6 +72,8 @@
                 </p>
                 <br>
                 <p>Welcome to my website! I am having fun developing it. Check back soon for more content. The parallax photos and this photo of my sister and I are from a recent trip to Scotland.</p>
+                <br>
+                <p>Please do not hesitate to contact me regarding internship or research opportunities. </p>
               </div>
             </div>
           </div>
@@ -105,7 +107,25 @@
           <li class="collection-item">On Intelligence by Jeff Hawkins</li>
           <li class="collection-item">Cracking the Coding Interview by Gayle Laakmann McDowell</li>
         </ul>
-
+        <br>
+        <ul class="collection with-header hoverable">
+          <li class="collection-header center"><h4>Projects</h4></li>
+          <li class="collection-header align-left"><h5>Personal</h5></li>
+          <li class="collection-item"><p><b>polka - developing</b></p> <p>Collaborative, Google Drive type platform for code development and execution with Noah Poczciwinski.</p></li>
+          <li class="collection-item"><p><b>lemon-library - developing</b></p> <p>Convolutional neural network for image classification and adversary with Megan Renz.</p></li>
+          <li class="collection-item"><p><b>connecto</b></p> <p>Implementation of CandyCrush in Python (<a href="https://github.com/CosmicVarion/connecto">link</a>).</p></li>
+          <li class="collection-item"><p><b>connect 4</b></p> <p> Arduino Connect 4 with wireless controller developed with Simran Singh (<a href="#connect4">link</a>).</p></li>
+          <li class="collection-item center">And many more to come!</li>
+          <li class="collection-header align-left"><h5>Coursework</h5></li>
+          <li class="collection-item"><b>Space Invaders</b> - UB CSE115: Introduction to Computer Science I<p>Java implementation of the classic 2D game with an object oriented design.</p></li>
+          <li class="collection-item"><b>Multiplayer Scrabble with Remote Method Invocation</b>  - UB CSE116: Introduction to Computer Science II <p>Semester group project to implement Scrabble with an object oriented design in Java - runnable on a server to which players may join.</p></li>
+          <li class="collection-item"><p><b>Treasure Hunter</b>  - UB CSE250: Data Structures</p><p>C++ game where a player moves on a grid encountering enemies and treasures and accumulating points.</p> </li>
+          <li class="collection-item"><p><b>Pale Blue Dot</b>  - UB CSE250: Data Structures</p><p>Python tool to provide the next opportunity to observe the International Space Station from a location via the International Space Station's web API.</p> </li>
+          <li class="collection-item"><p><b>Rhyme Bot</b>  - UB CSE250: Data Structures</p><p>Python tool to provide the best rhymes matching user input.</p> </li>
+          <li class="collection-header align-left"><h5>Professional</h5></li>
+          <li class="collection-item">Please see my resume (<a href="#resume">link</a>)</li>
+        </ul>
+        <br>
       </div>
     </div>
 
@@ -114,20 +134,18 @@
     </div>
 
     <div class="container">
-      <div class="section">
+      <div id="resume" class="section">
+        <div class="center">
+          <h2>Resume</h2>
 
-        <div id="resume">
-          <div class="center">
-            <h2>Resume</h2>
-          </div>
+          <br>
+          <iframe id="frame" frameborder="0" class="hoverable"></iframe>
+          <br>
+          <br>
+          <br>
+          <br>
+
         </div>
-
-        <br>
-        <iframe src="http://docs.google.com/gview?url=https://cosmicvarion.github.io/resources/resume.pdf&embedded=true" style="width:100%; height:1050px;" ></iframe>
-        <br>
-        <br>
-        <br>
-        <br>
 
       </div>
     </div>
@@ -140,20 +158,21 @@
       <div class="section">
 
         <div class="row">
+          <div id="connect4">
+            <div class="col s12 center">
+              <div class="card blue-grey darken-1 hoverable">
+                <div class="card-image">
+                  <img src="https://cosmicvarion.github.io/images/connect4.jpg">
+                  <span class="card-title">Connect 4</span>
+                </div>
 
-          <div class="col s12 center">
-            <div class="card blue-grey darken-1 hoverable">
-              <div class="card-image">
-                <img src="https://cosmicvarion.github.io/images/connect4.jpg">
-                <span class="card-title">Connect 4</span>
-              </div>
-
-              <div class="card-content white-text">
-                <p class="left-align light">Simran Singh and I won the CS Ed Week Demo Competition at UB. We developed a connect 4 game with an LED matrix that can be controlled via bluetooth from an android phone. (Photo credit - Ken Smith)</p>
+                <div class="card-content white-text">
+                  <p class="left-align light">Simran Singh and I won the CS Ed Week Demo Competition at UB. We developed an Arduino Uno based connect 4 game with an LED matrix that can be controlled via bluetooth from an android phone. (Photo credit - Ken Smith)</p>
+                </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
 
         <div class="row">
@@ -164,7 +183,7 @@
                 <img src="https://images.trvl-media.com/media/content/shared/images/travelguides/destination/717/Buffalo-City-Hall-82154.jpg">
               </div>
               <div class="card-content white-text">
-                <p class="left-align light">I am a native of Buffalo, New York. Buffalo has a beautiful art deco city hall. (Photo credit - Expedia)</p>
+                <p class="left-align light">I am a native of Buffalo, New York. Buffalo has a beautiful art deco city hall.</p>
               </div>
             </div>
           </div>
@@ -204,7 +223,20 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://cosmicvarion.github.io/js/script.js"></script>
+    <!-- <script type="text/javascript" src="https://cosmicvarion.github.io/js/script.js"></script> -->
+    <script language="javascript" type="text/javascript">
+      $(document).ready(function(){
+        $(".button-collapse").sideNav()
+        $('.parallax').parallax();
+      });
+
+      $("#frame").load(function() {
+        $("#frame").width("800px")
+        $("#frame").height($("#frame").width() * 1.29)
+      });
+
+      $("#frame").attr("src","http://docs.google.com/gview?url=https://cosmicvarion.github.io/resources/resume.pdf&embedded=true")
+    </script>
   </body>
 
 </html>
