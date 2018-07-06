@@ -103,7 +103,7 @@
                 <img src="https://cosmicvarion.github.io/images/watergarden.jpg">
               </div>
               <div class="card-content white-text">
-                <p class="left-align light">
+                <p class="left-align light" style="word-wrap: break-word;">
                   I love architecture, especially Frank Lloyd Wright. I use an art deco font on my resume.
                 </p>
               </div>
@@ -121,7 +121,12 @@
 
         <ul class="collection with-header hoverable" id="graduation_speech">
           <li class="collection-item center">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/flReOyU6Hvo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            <div style="position: relative; height: 0; overflow: hidden; padding-top: 56.25%;">
+              <iframe id="frame" frameborder="0" style="position:absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/flReOyU6Hvo?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+
+            <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/flReOyU6Hvo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
           </li>
         </ul>
         <br>
@@ -152,7 +157,7 @@
 
                 <div class="card hoverable">
                   <div class="card-content">
-                    <h5>TARS Sponsors</h5>
+                    <h5 style="word-wrap: break-word;">TARS Sponsors</h5>
                     <br>
                       <div class="card-image">
                         <img src="https://cosmicvarion.github.io/images/Logo-NVIDIA.jpg">
@@ -291,10 +296,9 @@
           <p><a href="https://www.linkedin.com/in/keithcarolus/">LinkedIn</a></p>
 
           <br>
-          <iframe id="frame" frameborder="0" class="hoverable"></iframe>
-          <br>
-          <br>
-          <br>
+          <div style="position: relative; height: 0; overflow: hidden; padding-top: 77.27%;">
+            <iframe id="frame" frameborder="0" style="position:absolute; top:0; left: 0; width: 100%; height: 100%;" src="http://docs.google.com/gview?url=https://cosmicvarion.github.io/resources/resume.pdf&embedded=true"></iframe>
+          </div>
           <br>
 
         </div>
@@ -357,13 +361,6 @@
         $(".button-collapse").sideNav()
         $('.parallax').parallax();
       });
-
-      $("#frame").load(function() {
-        $("#frame").width("800px")
-        $("#frame").height($("#frame").width() * 1.29)
-      });
-
-      $("#frame").attr("src","http://docs.google.com/gview?url=https://cosmicvarion.github.io/resources/resume.pdf&embedded=true")
     </script>
   </body>
 
